@@ -260,7 +260,12 @@ footer .container a {
 }
 
 /* aqui cambiamos el color del footer lo ultimo de todo */
-
+.card-img-bottom {
+  width: 100%;       /* Que ocupe todo el ancho de la card */
+  height: auto;      /* Mantiene proporción original */
+  object-fit: cover; /* Corta y ajusta para cubrir todo el contenedor */
+  display: block;    /* Elimina espacios en línea */
+}
 
 
 
